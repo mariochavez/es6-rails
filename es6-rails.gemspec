@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.required_ruby_version = '>= 2.0.0'
 
-  s.add_dependency 'rails',                 '>= 4.0', '< 5.0.0.1'
+  s.add_dependency 'rails',                 '>= 4.0', '<= 5.0.0.1'
   s.add_dependency 'babel-transpiler',      '~> 0.7', '>= 0.7.0'
   s.add_dependency 'sprockets',             '~> 3.0', '>= 3.0.0'
   s.add_dependency 'sprockets-es6',         '~> 0.8', '>= 0.8.1'
